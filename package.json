@@ -1,0 +1,11 @@
+{
+  "name": "webecommerce",
+  "version": "1.0.0",
+  "description": "Web ini untuk memenuhi tugas Mata Kuliah E-Commerce di Universitas Nasional Pasim",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Candra Wali Sanjaya @chndrwali@gmail.com",
+  "license": "ISC"
+}
