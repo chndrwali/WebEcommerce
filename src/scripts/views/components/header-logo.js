@@ -9,7 +9,7 @@ class HeaderLogo extends HTMLElement {
       <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
         <div class="flex h-16 items-center justify-between">
           <div class="flex-1 md:flex md:items-center md:gap-12">
-            <a class="block text-teal-600" href="/">
+            <a class="block text-teal-600" href="#/">
               <span class="sr-only">Home</span>
               <svg
                 class="h-8"
@@ -26,12 +26,12 @@ class HeaderLogo extends HTMLElement {
           </div>
     
           <div class="md:flex md:items-center md:gap-12">
-            <nav aria-label="Global" class="hidden md:block">
+            <nav id="navigationDrawer" aria-label="Global" class="hidden md:block">
               <ul class="flex items-center gap-6 text-sm">
                 <li>
                   <a
                     class="text-gray-500 transition hover:text-gray-500/75"
-                    href="/"
+                    href="#/home"
                   >
                     Home
                   </a>
@@ -40,7 +40,7 @@ class HeaderLogo extends HTMLElement {
                 <li>
                   <a
                     class="text-gray-500 transition hover:text-gray-500/75"
-                    href="/"
+                    href="#/product"
                   >
                     Products
                   </a>
@@ -49,7 +49,7 @@ class HeaderLogo extends HTMLElement {
                 <li>
                   <a
                     class="text-gray-500 transition hover:text-gray-500/75"
-                    href="/"
+                    href="#/about"
                   >
                     About
                   </a>
@@ -58,7 +58,7 @@ class HeaderLogo extends HTMLElement {
                 <li>
                   <a
                     class="text-gray-500 transition hover:text-gray-500/75"
-                    href="/"
+                    href="#/contact"
                   >
                     Contact
                   </a>
@@ -74,7 +74,7 @@ class HeaderLogo extends HTMLElement {
                 </li>
 
                 <li>
-                  <a href="/">
+                  <a href="#/cart">
                   <img src="../public/images/cart.png"> 
                   </a>
                 </li>
@@ -101,7 +101,7 @@ class HeaderLogo extends HTMLElement {
               </div>
     
               <div class="block md:hidden">
-                <button
+                <button id="hamburgerButton"
                   class="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75"
                 >
                   <svg
