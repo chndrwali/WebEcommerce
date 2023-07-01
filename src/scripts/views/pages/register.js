@@ -1,8 +1,8 @@
-const Cart = {
+const Register = {
   async render() {
     return `
-        <cart-page></cart-page>
-      `;
+          <register-page></register-page>
+        `;
   },
 
   async afterRender() {
@@ -10,4 +10,4 @@ const Cart = {
   },
 };
 
-export default Cart;
+export default Register;

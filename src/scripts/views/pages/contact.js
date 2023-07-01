@@ -1,7 +1,7 @@
 const Contact = {
   async render() {
     return `
-        <h2>Contact Page</h2>
+        <contact-page></contact-page>
       `;
   },
 

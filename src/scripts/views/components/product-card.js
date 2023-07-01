@@ -1,3 +1,10 @@
+import Hoodiesatu from '../../../public/images/Hoodie 1.png';
+import Hoodiedua from '../../../public/images/Hoodie 2.png';
+import Hoodietiga from '../../../public/images/Hoodie 3.png';
+import Crewnecksatu from '../../../public/images/crewneck 1.png';
+import Crewneckdua from '../../../public/images/crewneck 2.png';
+import Crewneck from '../../../public/images/crewneck.png';
+
 class ProductCard extends HTMLElement {
   connectedCallback() {
     this.render();
@@ -11,19 +18,13 @@ class ProductCard extends HTMLElement {
         <h2 class="text-xl font-bold text-gray-900 sm:text-3xl">
           Product Collection
         </h2>
-  
-        <p class="max-w-md mx-auto mt-4 text-gray-500">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque
-          praesentium cumque iure dicta incidunt est ipsam, officia dolor fugit
-          natus?
-        </p>
       </header>
   
-      <ul class="grid gap-4 mt-8 sm:grid-cols-2 lg:grid-cols-4">
+      <ul class="grid gap-4 mt-8 sm:grid-cols-2 lg:grid-cols-3">
         <li>
           <a href="#" class="block overflow-hidden group">
             <img
-              src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+              src="${Hoodiesatu}"
               alt=""
               class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
             />
@@ -32,13 +33,13 @@ class ProductCard extends HTMLElement {
               <h3
                 class="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4"
               >
-                Basic Tee
+                SYRM Hoodie Rose
               </h3>
   
               <p class="mt-2">
-                <span class="sr-only"> Regular Price </span>
+                <span class="sr-only"> Harga </span>
   
-                <span class="tracking-wider text-gray-900"> £24.00 GBP </span>
+                <span class="tracking-wider text-gray-900"> Rp. 150.000 </span>
               </p>
             </div>
           </a>
@@ -47,7 +48,7 @@ class ProductCard extends HTMLElement {
         <li>
           <a href="#" class="block overflow-hidden group">
             <img
-              src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+              src="${Hoodiedua}"
               alt=""
               class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
             />
@@ -56,13 +57,13 @@ class ProductCard extends HTMLElement {
               <h3
                 class="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4"
               >
-                Basic Tee
+                SYRM Hoodie Devil Neko
               </h3>
   
               <p class="mt-2">
-                <span class="sr-only"> Regular Price </span>
+                <span class="sr-only"> Harga </span>
   
-                <span class="tracking-wider text-gray-900"> £24.00 GBP </span>
+                <span class="tracking-wider text-gray-900"> Rp. 150.000 </span>
               </p>
             </div>
           </a>
@@ -71,7 +72,7 @@ class ProductCard extends HTMLElement {
         <li>
           <a href="#" class="block overflow-hidden group">
             <img
-              src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+              src="${Hoodietiga}"
               alt=""
               class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
             />
@@ -80,13 +81,13 @@ class ProductCard extends HTMLElement {
               <h3
                 class="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4"
               >
-                Basic Tee
+                SYRM Hoodie Samurai Neko
               </h3>
   
               <p class="mt-2">
-                <span class="sr-only"> Regular Price </span>
+                <span class="sr-only"> Harga </span>
   
-                <span class="tracking-wider text-gray-900"> £24.00 GBP </span>
+                <span class="tracking-wider text-gray-900"> Rp. 150.000 </span>
               </p>
             </div>
           </a>
@@ -95,7 +96,7 @@ class ProductCard extends HTMLElement {
         <li>
           <a href="#" class="block overflow-hidden group">
             <img
-              src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+              src="${Crewnecksatu}"
               alt=""
               class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
             />
@@ -104,17 +105,65 @@ class ProductCard extends HTMLElement {
               <h3
                 class="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4"
               >
-                Basic Tee
+                SYRM Crewneck JPN
               </h3>
   
               <p class="mt-2">
-                <span class="sr-only"> Regular Price </span>
+                <span class="sr-only"> Harga </span>
   
-                <span class="tracking-wider text-gray-900"> £24.00 GBP </span>
+                <span class="tracking-wider text-gray-900"> Rp. 120.000 </span>
               </p>
             </div>
           </a>
         </li>
+
+        <li>
+        <a href="#" class="block overflow-hidden group">
+          <img
+            src="${Crewneckdua}"
+            alt=""
+            class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
+          />
+
+          <div class="relative pt-3 bg-white">
+            <h3
+              class="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4"
+            >
+              SYRM Crewneck Mntm Holow
+            </h3>
+
+            <p class="mt-2">
+              <span class="sr-only"> Harga </span>
+
+              <span class="tracking-wider text-gray-900"> Rp. 120.000 </span>
+            </p>
+          </div>
+        </a>
+      </li>
+
+      <li>
+      <a href="#" class="block overflow-hidden group">
+        <img
+          src="${Crewneck}"
+          alt=""
+          class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
+        />
+
+        <div class="relative pt-3 bg-white">
+          <h3
+            class="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4"
+          >
+            SYRM Crewneck Mntm Rome
+          </h3>
+
+          <p class="mt-2">
+            <span class="sr-only"> Harga </span>
+
+            <span class="tracking-wider text-gray-900"> Rp. 120.000 </span>
+          </p>
+        </div>
+      </a>
+    </li>
       </ul>
     </div>
   </section>

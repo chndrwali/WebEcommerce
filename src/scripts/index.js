@@ -11,6 +11,10 @@ import './views/components/about-us';
 import './views/components/trusted-reviews';
 import './views/components/diskon-card';
 import './views/components/collection';
+import './views/components/contact-page';
+import './views/components/cart-page';
+import './views/components/login-page';
+import './views/components/register-page';
 
 const app = new App({
   button: document.querySelector('#hamburgerButton'),

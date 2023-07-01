@@ -8,14 +8,14 @@ class HeaderLogo extends HTMLElement {
 
   render() {
     this.innerHTML = `
-      <header class="bg-rose-100">
+      <header class="bg-gradient-to-r from-rose-100 via-white to-rose-100">
       <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
         <div class="flex h-16 items-center justify-between">
           <div class="flex-1 md:flex md:items-center md:gap-12">
             <a class="block text-teal-600" href="#/">
               <span class="sr-only">Home</span>
               <img
-                class="h-16"
+                class="h-16 rounded-full"
                 viewBox="0 0 28 24"
                 fill="none"
                 src="${Logo}"
@@ -76,7 +76,7 @@ class HeaderLogo extends HTMLElement {
               <div class="sm:flex sm:gap-4">
                 <a
                   class="rounded-md bg-black px-5 py-2.5 text-sm font-medium text-white shadow"
-                  href="/"
+                  href="#/login"
                 >
                   Login
                 </a>
@@ -84,7 +84,7 @@ class HeaderLogo extends HTMLElement {
                 <div class="hidden sm:flex">
                   <a
                     class="rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-black shadow"
-                    href="/"
+                    href="#/register"
                   >
                     Register
                   </a>

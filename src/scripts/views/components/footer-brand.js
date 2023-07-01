@@ -297,7 +297,7 @@ class FooterBrand extends HTMLElement {
                   />
                 </svg>
 
-                <span class="flex-1 text-white">john@doe.com</span>
+                <span class="flex-1 text-white">syrm@gmail.com</span>
               </a>
             </li>
 
@@ -321,7 +321,7 @@ class FooterBrand extends HTMLElement {
                   />
                 </svg>
 
-                <span class="flex-1 text-white">0123456789</span>
+                <span class="flex-1 text-white">0151 475 4450</span>
               </a>
             </li>
 
@@ -349,7 +349,7 @@ class FooterBrand extends HTMLElement {
               </svg>
 
               <address class="-mt-0.5 flex-1 not-italic text-white">
-                213 Lane, London, United Kingdom
+                933 Mentor, Bandung, Indonesia
               </address>
             </li>
           </ul>
@@ -380,7 +380,7 @@ class FooterBrand extends HTMLElement {
         </p>
 
         <p class="mt-4 text-sm text-white sm:order-first sm:mt-0">
-          &copy; 2023 Web E-Commerce
+          &copy; 2023 Candra & Andra
         </p>
       </div>
     </div>

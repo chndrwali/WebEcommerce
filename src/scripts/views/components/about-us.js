@@ -9,23 +9,16 @@ class AboutUs extends HTMLElement {
         <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-4">
           <div class="max-w-6xl">
             <h1 class="text-3xl font-extrabold py-6 sm:text-4xl">
-              Platform kami hadir dengan tujuan mendorong inklusifitas dalam
-              pendidikan
+              Brand kami hadir dengan tujuan mendorong ekonomi dan bisnis
             </h1>
 
             <p class="mt-4 sm:text-lg/relaxed text-slate-700">
-              Meskipun pendidikan dianggap sebagai hak universal, masih banyak
-              yang sulit mengaksesnya terutama sumber belajar berbayar karena
-              faktor finansial, sosial, dan lainnya. Setiap orang berhak belajar
-              tanpa batasan apapun.
+              Pembuatan website ini bertujuan agar memudahkan pelanggan untuk membeli kebutuhan brand yang keren nan ciamik
             </p>
 
             <p class="mt-4 sm:text-lg/relaxed text-slate-700">
-              Aplikasi ini adalah platform untuk sumbangan pendidikan yang
-              memungkinkan siapa saja memberikan bantuan berbentuk finansial
-              ataupun materi untuk menunjang pendidikan kepada penerima yang
-              memenuhi persyaratan. Donatur dapat memberikan dana langsung untuk
-              pembelian buku, kursus online, dan lainnya sesuai kesepakatan.
+              Aplikasi ini adalah platform e-commerce yang
+              memungkinkan siapa saja dapat mengakses nya dimana pun dan kapanpun,memberikan informasi barang yang sedang tersedia dan dapat membeli nya dengan sangat cepat dan praktis
             </p>
           </div>
         </div>
@@ -34,160 +27,160 @@ class AboutUs extends HTMLElement {
         <h1 class="text-3xl font-bold py-2 sm:text-4xl text-center">
           Meet our Team
         </h1>
-        <div class="mx-16 my-6 grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 ">
+        <div class="mx-16 my-6 grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
           <div class="group relative block bg-black">
-            <img
-              alt="Developer"
-              src="/candra.webp"
-              class="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
-            />
 
             <div class="relative p-4 sm:p-6 lg:p-8">
               <p class="text-sm font-medium uppercase tracking-widest text-pink-500">
-                Developer
+                Front End Developer
               </p>
 
               <p class="text-xl font-bold text-white sm:text-2xl">
-                Candra Wali
+                Candra Wali Sanjaya
               </p>
-
-              <div class="mt-32 sm:mt-48 lg:mt-64">
-                <div class="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
-                  <div class="text-sm text-white flex justify-center gap-5">
-                    <a
-                      href="https://www.linkedin.com/in/chndrwali"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <BsLinkedin class="cursor-pointer text-2xl" />
-                    </a>
-                    <a
-                      href="https://instagram.com/chndrwali"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <BsInstagram class="cursor-pointer text-2xl" />
-                    </a>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
 
           <div class="group relative block bg-black">
-            <img
-              alt="Developer"
-              src="/sindi.webp"
-              class="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
-            />
 
             <div class="relative p-4 sm:p-6 lg:p-8">
               <p class="text-sm font-medium uppercase tracking-widest text-pink-500">
-                Developer
+                Front End Developer
               </p>
 
               <p class="text-xl font-bold text-white sm:text-2xl">
-                Sindi Rinaldi
+                Andra Syuryahman
               </p>
-
-              <div class="mt-32 sm:mt-48 lg:mt-64">
-                <div class="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
-                  <div class="text-sm text-white flex justify-center gap-5">
-                    <a
-                      href="https://www.linkedin.com/in/sindi-rinaldi-56382424a/"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <BsLinkedin class="cursor-pointer text-2xl" />
-                    </a>
-                    <a
-                      href="https://instagram.com/rinaldiibot_ "
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <BsInstagram class="cursor-pointer text-2xl" />
-                    </a>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
 
           <div class="group relative block bg-black">
-            <img
-              alt="Developer"
-              src="/suci.webp"
-              class="absolute inset-0 h-full w-full object-cover object-center opacity-75 transition-opacity group-hover:opacity-50"
-            />
 
             <div class="relative p-4 sm:p-6 lg:p-8">
               <p class="text-sm font-medium uppercase tracking-widest text-pink-500">
-                Developer
+                Back End Developer
               </p>
 
               <p class="text-xl font-bold text-white sm:text-2xl">
-                Suci Sukmawati
+                Candika Aprila Saputra
               </p>
-
-              <div class="mt-32 sm:mt-48 lg:mt-64">
-                <div class="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
-                  <div class="text-sm text-white flex justify-center gap-5">
-                    <a
-                      href="https://www.linkedin.com/in/suci-sukmawati-08b43a211"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <BsLinkedin class="cursor-pointer text-2xl" />
-                    </a>
-                    <a
-                      href="https://instagram.com/sucisukmawati_"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <BsInstagram class="cursor-pointer text-2xl" />
-                    </a>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
 
           <div class="group relative block bg-black">
-            <img
-              alt="Developer"
-              src="/rony.webp"
-              class="absolute inset-0 h-full w-full object-cover object-center  opacity-75 transition-opacity group-hover:opacity-50"
-            />
 
             <div class="relative p-4 sm:p-6 lg:p-8">
               <p class="text-sm font-medium uppercase tracking-widest text-pink-500">
-                Developer
+                Back End Developer
               </p>
 
               <p class="text-xl font-bold text-white sm:text-2xl">
-                Rony Wahyu
+                Ari Saepudin
+              </p>
+            </div>
+          </div>
+
+          <div class="group relative block bg-black">
+
+            <div class="relative p-4 sm:p-6 lg:p-8">
+              <p class="text-sm font-medium uppercase tracking-widest text-pink-500">
+                Back End Developer
               </p>
 
-              <div class="mt-32 sm:mt-48 lg:mt-64">
-                <div class="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
-                  <div class="text-sm text-white flex justify-center gap-5">
-                    <a
-                      href="https://www.linkedin.com/in/ronywahyuuu"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <BsLinkedin class="cursor-pointer text-2xl" />
-                    </a>
-                    <a
-                      href="https://instagram.com/ronywahyuu"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <BsInstagram class="cursor-pointer text-2xl" />
-                    </a>
-                  </div>
-                </div>
-              </div>
+              <p class="text-xl font-bold text-white sm:text-2xl">
+                Evita Rizkia Putri
+              </p>
+            </div>
+          </div>
+
+          <div class="group relative block bg-black">
+
+            <div class="relative p-4 sm:p-6 lg:p-8">
+              <p class="text-sm font-medium uppercase tracking-widest text-pink-500">
+               Back End Developer
+              </p>
+
+              <p class="text-xl font-bold text-white sm:text-2xl">
+                Arrum Gunawan
+              </p>
+            </div>
+          </div>
+
+          <div class="group relative block bg-black">
+
+            <div class="relative p-4 sm:p-6 lg:p-8">
+              <p class="text-sm font-medium uppercase tracking-widest text-pink-500">
+                UI/UX Design
+              </p>
+
+              <p class="text-xl font-bold text-white sm:text-2xl">
+                Fiki Dudih Ramdani
+              </p>
+            </div>
+          </div>
+
+          <div class="group relative block bg-black">
+
+            <div class="relative p-4 sm:p-6 lg:p-8">
+              <p class="text-sm font-medium uppercase tracking-widest text-pink-500">
+                UI/UX Design
+              </p>
+
+              <p class="text-xl font-bold text-white sm:text-2xl">
+                Jeje Zaeni
+              </p>
+            </div>
+          </div>
+
+          <div class="group relative block bg-black">
+
+            <div class="relative p-4 sm:p-6 lg:p-8">
+              <p class="text-sm font-medium uppercase tracking-widest text-pink-500">
+                UI/UX Design
+              </p>
+
+              <p class="text-xl font-bold text-white sm:text-2xl">
+                Rafliyadi Sabarudin
+              </p>
+            </div>
+          </div>
+
+          <div class="group relative block bg-black">
+
+            <div class="relative p-4 sm:p-6 lg:p-8">
+              <p class="text-sm font-medium uppercase tracking-widest text-pink-500">
+                UI/UX Design
+              </p>
+
+              <p class="text-xl font-bold text-white sm:text-2xl">
+                Rizal Maulana Sanjaya
+              </p>
+            </div>
+          </div>
+
+          <div class="group relative block bg-black">
+
+            <div class="relative p-4 sm:p-6 lg:p-8">
+              <p class="text-sm font-medium uppercase tracking-widest text-pink-500">
+                Rancangan Laporan
+              </p>
+
+              <p class="text-xl font-bold text-white sm:text-2xl">
+                Titan Wira Aditya
+              </p>
+            </div>
+          </div>
+
+          <div class="group relative block bg-black">
+
+            <div class="relative p-4 sm:p-6 lg:p-8">
+              <p class="text-sm font-medium uppercase tracking-widest text-pink-500">
+                Rancangan Laporan
+              </p>
+
+              <p class="text-xl font-bold text-white sm:text-2xl">
+                Muhammad Faisal
+              </p>
             </div>
           </div>
 
