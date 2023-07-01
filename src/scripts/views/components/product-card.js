@@ -5,7 +5,7 @@ class ProductCard extends HTMLElement {
 
   render() {
     this.innerHTML = `
-    <section>
+    <section class="bg-gradient-to-r from-rose-100 via-white to-rose-100">
     <div class="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 sm:py-12 lg:px-8">
       <header class="text-center">
         <h2 class="text-xl font-bold text-gray-900 sm:text-3xl">

@@ -7,6 +7,10 @@ import './views/components/header-logo';
 import './views/components/footer-brand';
 import './views/components/jumbotron-bg';
 import './views/components/product-card';
+import './views/components/about-us';
+import './views/components/trusted-reviews';
+import './views/components/diskon-card';
+import './views/components/collection';
 
 const app = new App({
   button: document.querySelector('#hamburgerButton'),

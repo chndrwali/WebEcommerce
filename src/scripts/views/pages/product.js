@@ -1,7 +1,7 @@
 const Product = {
   async render() {
     return `
-        <h2>Product Page</h2>
+        <product-card></product-card>
       `;
   },
 

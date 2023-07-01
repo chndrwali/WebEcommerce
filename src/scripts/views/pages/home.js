@@ -2,7 +2,9 @@ const Home = {
   async render() {
     return `
           <jumbotron-bg></jumbotron-bg>
-          <product-card></product-card>
+          <collection-atas></collection-atas>
+          <diskon-card></diskon-card>
+          <trusted-reviews></trusted-review>
         `;
   },
 

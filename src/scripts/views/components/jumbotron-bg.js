@@ -1,3 +1,5 @@
+import Background from '../../../public/images/background.png';
+
 class JumbotronBg extends HTMLElement {
   connectedCallback() {
     this.render();
@@ -5,48 +7,38 @@ class JumbotronBg extends HTMLElement {
 
   render() {
     this.innerHTML = `
-<section
-  class="relative bg-[url(https://images.unsplash.com/photo-1604014237800-1c9102c219da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80)] bg-cover bg-center bg-no-repeat"
->
-  <div
-    class="absolute inset-0 bg-white/75 sm:bg-transparent sm:from-white/95 sm:to-white/25 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l"
-  ></div>
-
-  <div
-    class="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
-  >
-    <div class="max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
-      <h1 class="text-3xl font-extrabold sm:text-5xl">
-        Let us find your
-
-        <strong class="block font-extrabold text-rose-700">
-          Forever Home.
-        </strong>
-      </h1>
-
-      <p class="mt-4 max-w-lg sm:text-xl/relaxed">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt illo
-        tenetur fuga ducimus numquam ea!
-      </p>
-
-      <div class="mt-8 flex flex-wrap gap-4 text-center">
-        <a
-          href="#"
-          class="block w-full rounded bg-rose-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
+    <section class="relative bg-gradient-to-r from-rose-100 via-white to-rose-100">
+    <div
+      class="mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8"
+    >
+      <div class="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
+        <div
+          class="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full"
         >
-          Get Started
-        </a>
-
-        <a
-          href="#"
-          class="block w-full rounded bg-white px-12 py-3 text-sm font-medium text-rose-600 shadow hover:text-rose-700 focus:outline-none focus:ring active:text-rose-500 sm:w-auto"
-        >
-          Learn More
-        </a>
+          <img
+            alt="Party"
+            src="${Background}"
+            class="absolute inset-0 h-full w-full object-cover"
+          />
+        </div>
+  
+        <div class="lg:py-24">
+          <h2 class="text-3xl font-bold sm:text-4xl">Give Your Confident<br> A New Style!</h2>
+  
+          <p class="mt-4 text-gray-600">
+          Jangan biarkan opini orang lain menenggelamkan suara dari dalam dirimu<br>Jika kamu bisa memimpikannya, kamu bisa melakukannya
+          </p>
+  
+          <a
+            href="#"
+            class="mt-8 inline-block rounded bg-orange-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-orange-950 focus:outline-none focus:ring focus:ring-blue-400"
+          >
+            Explore Now &#8594;
+          </a>
+        </div>
       </div>
     </div>
-  </div>
-</section>`;
+  </section>`;
   }
 }
 
